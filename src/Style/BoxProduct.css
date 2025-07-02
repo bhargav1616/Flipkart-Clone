@@ -1,0 +1,109 @@
+/* ********** Main Container ********** */
+.box_product_main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px;
+    justify-content: space-between;
+}
+
+/* ********** Each Section ********** */
+.box_product {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* ********** Product Rows ********** */
+.box_product_under {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 5px 0;
+}
+
+/* ********** Individual Product ********** */
+.product {
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ********** Product Image ********** */
+.product_img {
+    width: 100%;
+    max-width: 170px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* ********** Product Text ********** */
+.product_title {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.product_price {
+    font-size: 13px;
+    font-weight: bold;
+    color: green;
+}
+
+/* ********** Responsive ********** */
+@media (max-width: 1024px) {
+    .box_product {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box_product_main {
+        justify-content: center;
+        /* Center align all box_product on smaller screens */
+    }
+
+    .box_product {
+        justify-content: center;
+        /* Center align all box_product on smaller screens */
+        /* flex: 1 1 100%; */
+        max-width: 500px;
+    }
+
+    .box_product_under {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .box_product_main {
+        justify-content: center;
+    }
+
+    .box_product_under {
+        grid-template-columns: 1fr;
+    }
+    .payment_png{
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .box_product {
+        justify-content: center;
+        /* Center align all box_product on smaller screens */
+        flex: 1 1 100%;
+        max-width: 500px;
+    }
+}
+

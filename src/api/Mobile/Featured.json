@@ -1,0 +1,18 @@
+[
+    { "id": "0", "LoginTitle": "Featured" },
+    { "id": "1", "name": "Google Assistant Store" },
+    { "id": "2", "name": "Laptops on Buyback Guarantee" },
+    { "id": "3", "name": "Flipkart SmartBuy" },
+    { "id": "4", "name": "Li-Polymer Power Banks" },
+    { "id": "5", "name": "Sony PS4 Pro & Slim" },
+    { "id": "6", "name": "Apple Products" },
+    { "id": "7", "name": "Microsoft Store" },
+    { "id": "8", "name": "Lenovo Phab Series" },
+    { "id": "9", "name": "JBL Speakers" },
+    { "id": "10", "name": "Smartphones On Buyback Guarantee" },
+    { "id": "11", "name": "Philips" },
+    { "id": "12", "name": "Dr. Morepen" },
+    { "id": "13", "name": "Complete Mobile Protection" },
+    { "id": "14", "name": "Mobiles No Cost EMI" },
+    { "id": "15", "name": "Huawei Watch Gt 2 Smart Watch" }
+]

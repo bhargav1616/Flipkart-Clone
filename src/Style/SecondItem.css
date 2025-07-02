@@ -1,0 +1,197 @@
+.second_main {
+  background-color: white;
+  overflow: visible;
+  position: relative;
+}
+
+.second_main ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 40px;
+  margin: 10px 20px;
+  scrollbar-width: none;
+  position: relative;
+}
+
+.second_main ul::-webkit-scrollbar {
+  display: none;
+}
+
+.second_main ul li {
+  flex: 0 0 auto;
+  margin-right: 30px;
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+.second_main ul li img {
+  /* width: 40px; */
+  /* height: 40px; */
+  object-fit: contain;
+}
+
+.second_main ul li p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.dropdown-menus {
+  position: absolute;
+  top: 7.2rem; /* adjust based on header height */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 10px 25px;
+  z-index: 9999;
+  min-width: 200px;
+}
+
+.fashion-dropdown { left: 270px; }
+.electronics-dropdown { left: 26.3rem; }
+.beauty-dropdown { right: 14rem; }
+.twoWheelers-dropdown { right: 2rem; }
+
+.dropdown-menus b {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dropdown-menus p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.dropdown-menus a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.dropdown-menus a:hover {
+  color: black;
+}
+
+hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+
+/* Carausal Section */
+
+.carousel {
+  width: 100%;
+  max-width: 1325px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  width: 800%; /* 8 slides (7 original + 1 duplicate) */
+  animation: slide 28s infinite linear; /* 4s per slide */
+}
+
+.carousel-slide {
+  width: 12.5%; /* 100% / 8 slides */
+  flex-shrink: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 250px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures images fill container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  12.5% {
+    transform: translateX(-12.5%);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  37.5% {
+    transform: translateX(-37.5%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  62.5% {
+    transform: translateX(-62.5%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  87.5% {
+    transform: translateX(-87.5%);
+  }
+  100% {
+    transform: translateX(-87.5%); /* Pause at last slide */
+  }
+}
+
+/* Pause animation on hover */
+.carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-track {
+    animation-duration: 21s; /* Faster on mobile */
+  }
+  .carousel-slide img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 944px) {
+  .second_main ul {
+  padding: 20px 0px;
+  margin: 10px 20px;
+}
+}
+
+@media (max-width: 768px) {
+  .dropdown-menus {
+    position: absolute;
+    top: 100%; /* Directly below the list item */
+    left: 0;
+    width: 100vw; /* Full width */
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+
+  /* Reset specific positioning classes */
+  .fashion-dropdown,
+  .electronics-dropdown,
+  .beauty-dropdown,
+  .twoWheelers-dropdown {
+    left: 0 !important;
+    right: auto !important;
+  }
+
+  /* Optional: Make sure parent <li> is relatively positioned */
+  .second_main ul li.dropdown {
+    position: relative;
+  }
+}

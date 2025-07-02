@@ -1,0 +1,20 @@
+[
+    { "id": "0", "LoginTitle": "Mobiles" },
+    { "id": "1", "name": "Mi" },
+    { "id": "2", "name": "Apple" },
+    { "id": "3", "name": "Samsung" },
+    { "id": "4", "name": "OnePlus" },
+    { "id": "5", "name": "Realme" },
+    { "id": "6", "name": "Oppo" },
+    { "id": "7", "name": "Vivo" },
+    { "id": "8", "name": "Infinix" },
+    { "id": "9", "name": "Tecno" },
+    { "id": "10", "name": "Motorola" },
+    { "id": "11", "name": "Nokia" },
+    { "id": "12", "name": "Asus" },
+    { "id": "13", "name": "LG" },
+    { "id": "14", "name": "Honor" },
+    { "id": "15", "name": "Google Pixel" },
+    { "id": "16", "name": "Nothing" },
+    { "id": "17", "name": "Lava" }
+]

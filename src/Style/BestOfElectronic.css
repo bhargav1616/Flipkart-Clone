@@ -1,0 +1,146 @@
+.best_of_electronic_main {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin: 16px;
+}
+
+.flight_section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product_info {
+    margin-left: 30px;
+}
+
+.flight_img {
+    width: 14.8rem;
+    padding: 10px 20px;
+}
+
+.best_of_electronic {
+    position: relative;
+    overflow: hidden;
+    /* Hide overflow so no manual drag */
+    background-color: white;
+}
+
+.best_of_electronic ul {
+    display: flex;
+    overflow-x: hidden;
+    /* Disable manual horizontal scroll */
+    scroll-behavior: smooth;
+    padding: 10px 40px;
+}
+
+.best_of_electronic li {
+    flex: 0 0 auto;
+    margin: 0 30px;
+}
+
+.best_of_electronic h2 {
+    margin: 10px 0;
+}
+
+.product_info {
+    padding-top: 20px;
+}
+
+/* Button design */
+.prevBtn,
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    color: grey;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 30px 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 10;
+}
+
+.prevBtn {
+    left: 0px;
+}
+
+.nextBtn {
+    right: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+@media (max-width: 1024px) {
+    .flight_section {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .best_of_electronic_main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .product_details {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .best_of_electronic ul {
+        flex-direction: column;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 10px 20px;
+    }
+
+    .best_of_electronic li {
+        margin: 10px 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .prevBtn,
+    .nextBtn {
+        display: none;
+    }
+
+    .flight_section {
+        display: none;
+    }
+
+    .product_info {
+        margin-left: 3rem;
+        padding-top: 0;
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .best_of_electronic {
+        width: 100%;
+    }
+
+    .best_of_electronic img {
+        width: 3rem;
+        height: 4rem;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 768px) {
+    .my_hr {
+        display: none;
+    }
+}

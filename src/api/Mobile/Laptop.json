@@ -1,0 +1,21 @@
+[
+    { "id": "0", "LoginTitle": "Laptops" },
+    { "id": "1", "name": "Apple" },
+    { "id": "2", "name": "Dell" },
+    { "id": "3", "name": "HP" },
+    { "id": "4", "name": "Lenovo" },
+    { "id": "5", "name": "Asus" },
+    { "id": "6", "name": "Acer" },
+    { "id": "7", "name": "MSI" },
+    { "id": "8", "name": "Microsoft Surface" },
+    { "id": "9", "name": "Samsung" },
+    { "id": "10", "name": "Razer" },
+    { "id": "11", "name": "LG" },
+    { "id": "12", "name": "Huawei" },
+    { "id": "13", "name": "Honor" },
+    { "id": "14", "name": "Google Chromebook" },
+    { "id": "15", "name": "Xiaomi" },
+    { "id": "16", "name": "iBall" },
+    { "id": "17", "name": "Vaio" },
+    { "id": "18", "name": "Avita" }
+]

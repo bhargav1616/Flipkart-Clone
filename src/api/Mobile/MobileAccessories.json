@@ -1,0 +1,20 @@
+[
+    { "id": "0", "LoginTitle": "Mobile Accessories" },
+    { "id": "1", "name": "Back Covers" },
+    { "id": "2", "name": "Screen Guards" },
+    { "id": "3", "name": "Camera Lens Protectors" },
+    { "id": "4", "name": "Power Banks" },
+    { "id": "5", "name": "Memory Cards" },
+    { "id": "6", "name": "Charging Cables" },
+    { "id": "7", "name": "Chargers" },
+    { "id": "8", "name": "Headphones" },
+    { "id": "9", "name": "Earphones" },
+    { "id": "10", "name": "Bluetooth Headsets" },
+    { "id": "11", "name": "Mobile Holders" },
+    { "id": "12", "name": "OTG Adapters" },
+    { "id": "13", "name": "Selfie Sticks" },
+    { "id": "14", "name": "Smart Watches" },
+    { "id": "15", "name": "Fitness Bands" },
+    { "id": "16", "name": "VR Headsets" },
+    { "id": "17", "name": "Mobile Skins" }
+]

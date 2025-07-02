@@ -1,0 +1,18 @@
+[
+    { "id": "0", "LoginTitle": "More" },
+    { "id": "1", "name": "Home Audio Speakers" },
+    { "id": "2", "name": "Home Theatres" },
+    { "id": "3", "name": "Soundbars" },
+    { "id": "4", "name": "Bluetooth Speakers" },
+    { "id": "5", "name": "DTH Set Top Box" },
+    { "id": "6", "name": "Smart Home Automation" },
+    { "id": "7", "name": "Google Nest" },
+    { "id": "8", "name": "Camera" },
+    { "id": "9", "name": "DSLR & Mirrorless" },
+    { "id": "10", "name": "Compact & Bridge Cameras" },
+    { "id": "11", "name": "Sports & Action" },
+    { "id": "12", "name": "Camera Accessories" },
+    { "id": "13", "name": "Lens" },
+    { "id": "14", "name": "Tripods" },
+    { "id": "15", "name": "Network Components" }
+]

@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F1F2F4;
+  font-family: "Anek Gujarati", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+}
+
+input {
+  width: 32rem;
+  height: 37px;
+  padding: 0 30px;
+  background: url('icons/search.png') no-repeat 8px center;
+  border: none;
+  background-color: #F0F5FF;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+li {
+  text-align: center;
+}
+
+.menu_img {
+  vertical-align: middle;
+}
+
+.myLogo{
+  margin-top: 10px;
+  width: 6rem;
+}
+
+li a {
+  color: black;
+  font-size: 18px;
+}
+
+/* %%%%%%%%%% */
+
+.sign_up_btn {
+  color: #2A55E5;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 270px;
+  height: 370px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  flex-direction: column;
+  list-style: none;
+  border-radius: 10px;
+}
+
+/* For dots Style  */
+
+.dropdown-menu-dots {
+  right: 0px !important;
+  display: none !important;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  min-width: 270px;
+  height: 160px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  flex-direction: column;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.dropdown-menu-dots .Sign_up_menu p {
+  margin: 11px !important;
+  /* padding: 5px 0 !important; */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex !important;
+}
+
+.dropdown:hover .dropdown-menu-dots {
+  display: flex !important;
+}
+
+.dropdown-menu li a {
+  padding: 10px 15px;
+  display: block;
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+.sign-up-d-down {
+  display: flex;
+  height: 10px;
+  gap: 40px;
+}
+
+hr {
+  width: 100% !important;
+}
+
+.Sign_up_menu p {
+  text-align: start;
+  padding-right: 5rem;
+  margin-top: 20px;
+}
+
+.Sign_up_menu img {
+  padding-right: 10px;
+}
+
+.menu_img[src*="logo1.png"] {
+  width: 8rem;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1128px) {
+  .name_hide {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  input {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  input {
+    width: 100%;
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 612px) {
+  input {
+    display: none;
+  }
+}

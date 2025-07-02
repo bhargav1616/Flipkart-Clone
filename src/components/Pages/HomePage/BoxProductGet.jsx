@@ -3,7 +3,7 @@ import BoxProduct from './BoxProduct';
 import '../../../Style/BoxProduct.css';
 
 // ********** First Section Images **********
-import Boxer from '../../../assets/SquareProductImg/Boxer1.jpeg';
+import Boxer from '../../../assets/SquareProductImg/boxer1.jpeg';
 import Shoes from '../../../assets/SquareProductImg/shoes1.jpeg';
 import Bag from '../../../assets/SquareProductImg/bag1.jpeg';
 import Tshirt from '../../../assets/SquareProductImg/t-shirt1.jpeg';

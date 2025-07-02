@@ -1,7 +1,7 @@
 import { Header } from '../Header'
 import { useState } from 'react'
 import '../.././Style/Login.css'
-import Logo1 from '../../assets/SqeareProductImg/logo1.png';
+import Logo1 from '../../assets/SquareProductImg/logo1.png';
 import mobile from '../.././api/Mobile/Mobile.json'
 import MobileAccessories from '../.././api/Mobile/MobileAccessories.json'
 import Laptop from '../.././api/Mobile/Laptop.json'

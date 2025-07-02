@@ -1,6 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
-import MainLogo from '.././assets/SqeareProductImg/mylogo.jpg';
+import MainLogo from '.././assets/SquareProductImg/mylogo.jpg';
 
 
 export const Header = ({ bgColor, Logo = MainLogo ,loginColor}) => {

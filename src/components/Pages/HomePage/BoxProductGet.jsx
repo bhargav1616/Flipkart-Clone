@@ -3,20 +3,20 @@ import BoxProduct from './BoxProduct';
 import '../../../Style/BoxProduct.css';
 
 // ********** First Section Images **********
-import Boxer from '../../../assets/SqeareProductImg/Boxer1.jpeg';
-import Shoes from '../../../assets/SqeareProductImg/shoes1.jpeg';
-import Bag from '../../../assets/SqeareProductImg/bag1.jpeg';
-import Tshirt from '../../../assets/SqeareProductImg/t-shirt1.jpeg';
+import Boxer from '../../../assets/SquareProductImg/Boxer1.jpeg';
+import Shoes from '../../../assets/SquareProductImg/shoes1.jpeg';
+import Bag from '../../../assets/SquareProductImg/bag1.jpeg';
+import Tshirt from '../../../assets/SquareProductImg/t-shirt1.jpeg';
 
-import Speaker from '../../../assets/SqeareProductImg/speaker2.jpeg';
-import Headphones from '../../../assets/SqeareProductImg/headphone2.jpeg';
-import Camera from '../../../assets/SqeareProductImg/miniCamero2.jpeg';
-import Laptop from '../../../assets/SqeareProductImg/laptop2.jpeg';
+import Speaker from '../../../assets/SquareProductImg/speaker2.jpeg';
+import Headphones from '../../../assets/SquareProductImg/headphone2.jpeg';
+import Camera from '../../../assets/SquareProductImg/miniCamero2.jpeg';
+import Laptop from '../../../assets/SquareProductImg/laptop2.jpeg';
 
-import Mandir from '../../../assets/SqeareProductImg/mandir3.jpeg';
-import ShoeRack from '../../../assets/SqeareProductImg/showRack3.jpeg';
-import MosquitoNet from '../../../assets/SqeareProductImg/mosquitoNet3.jpeg';
-import BathTowel from '../../../assets/SqeareProductImg/bathTowel3.jpeg';
+import Mandir from '../../../assets/SquareProductImg/mandir3.jpeg';
+import ShoeRack from '../../../assets/SquareProductImg/showRack3.jpeg';
+import MosquitoNet from '../../../assets/SquareProductImg/mosquitoNet3.jpeg';
+import BathTowel from '../../../assets/SquareProductImg/bathTowel3.jpeg';
 
 const BoxProductGet = () => {
   return (
